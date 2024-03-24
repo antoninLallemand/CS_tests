@@ -1,0 +1,15 @@
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\bin\Debug\net8.0\CS_tests.exe
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\bin\Debug\net8.0\CS_tests.deps.json
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\bin\Debug\net8.0\CS_tests.runtimeconfig.json
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\bin\Debug\net8.0\CS_tests.dll
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\bin\Debug\net8.0\CS_tests.pdb
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.AssemblyInfoInputs.cache
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.AssemblyInfo.cs
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.csproj.CoreCompileInputs.cache
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.sourcelink.json
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.dll
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\refint\CS_tests.dll
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.pdb
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\CS_tests.genruntimeconfig.cache
+C:\Users\antonin\Documents\GitHub\CS_tests\CS_tests\obj\Debug\net8.0\ref\CS_tests.dll
