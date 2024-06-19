@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "bMPD73o/krGRhSWkJx6WR72iX6Apvtbu+/MGPX532IyXBxFJ9lYUmNDhd8MQV26/n0c6Zj1hflGn1Tgm6rNkLA==",
+  "dgSpecHash": "u7qgHsIe9a1jkwyBwLFMWUEbTdbM2ymzuJ+LLKebVY5eMK8sEVJ+8FOVKgeSmVGYZT+CCe42Wjs4R1a7ks4eGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\antonin\\Documents\\GitHub\\CS_tests\\CS_tests\\CS_tests.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\GitHub\\CS_tests\\CS_tests\\CS_tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antonin\\.nuget\\packages\\beckhoff.twincat.ads\\6.1.203\\beckhoff.twincat.ads.6.1.203.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\beckhoff.twincat.ads.abstractions\\6.1.203\\beckhoff.twincat.ads.abstractions.6.1.203.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\beckhoff.twincat.ads.server\\6.1.203\\beckhoff.twincat.ads.server.6.1.203.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.componentmodel.composition\\6.0.0\\system.componentmodel.composition.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Antonin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

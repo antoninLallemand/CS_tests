@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\CS_tests\\CS_tests\\CS_tests.csproj": {}
+    "D:\\GitHub\\CS_tests\\LowPassFilter\\LowPassFilter.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\CS_tests\\CS_tests\\CS_tests.csproj": {
+    "D:\\GitHub\\CS_tests\\LowPassFilter\\LowPassFilter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\CS_tests\\CS_tests\\CS_tests.csproj",
-        "projectName": "CS_tests",
-        "projectPath": "D:\\GitHub\\CS_tests\\CS_tests\\CS_tests.csproj",
+        "projectUniqueName": "D:\\GitHub\\CS_tests\\LowPassFilter\\LowPassFilter.csproj",
+        "projectName": "LowPassFilter",
+        "projectPath": "D:\\GitHub\\CS_tests\\LowPassFilter\\LowPassFilter.csproj",
         "packagesPath": "C:\\Users\\Antonin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\CS_tests\\CS_tests\\obj\\",
+        "outputPath": "D:\\GitHub\\CS_tests\\LowPassFilter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antonin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Beckhoff.TwinCAT.Ads": {
-              "target": "Package",
-              "version": "[6.1.203, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

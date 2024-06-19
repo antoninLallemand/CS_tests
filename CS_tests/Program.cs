@@ -4,10 +4,21 @@ using SensorNameSpace;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using TwinCAT.Ads;
 
 namespace test{
     class Programm{
         public static void Main(string[] args){
+
+
+            targetAmsNetId = new AmsNetId(AmsNetId.Local);
+            client = new AdsClient();
+            client.Connect(targetAmsNetId, 851);
+
+            string[] array = GetStringArrayAds("MAIN", "aArray", 10, 1, 20);
+
+            Console.WriteLine(array);
+
             //--------------- efficient string concat --------------------------------
 
             // StringBuilder payloadBuilder = new StringBuilder("{\"table\" : [");
@@ -62,7 +73,10 @@ namespace test{
             // Console.WriteLine("\ninfos after changes :");
             // IEPE.getSensorInfos();
             // Console.WriteLine(IEPE);
-            AsyncMain().Wait();
+            // AsyncMain().Wait();
+
+
+
         }
 
         public static async Task AsyncMain()
@@ -93,6 +107,40 @@ namespace test{
         foreach(var iter in table)
             ThreadPool.QueueUserWorkItem(function, iter)
         */
+
+        
+        static string[] GetStringArrayAds(string sensor, string variableName, ushort xLine, ushort xCol, ushort stringSize)
+        {
+            uint strArrayHandle = 0;
+            string[] strArray = new string[xLine*xCol];
+
+            try{
+                strArrayHandle = client.CreateVariableHandle(sensor+"."+variableName);
+
+                byte[] readStrArray = new byte[xCol*xLine*stringSize];
+
+                client.Read(strArrayHandle, readStrArray.AsMemory());
+                for(int i=0; i < xCol*xLine; i++)
+                {
+                    byte[] stringBytes = new byte[stringSize];
+                    Array.Copy(readStrArray, i * stringSize, stringBytes, 0, stringSize);
+                    // Find the index of the first null character
+                    int nullIndex = Array.IndexOf(stringBytes, (byte)'\0');
+                    // Trim the null characters from the end of the string
+                    string str = nullIndex >= 0 ? Encoding.ASCII.GetString(stringBytes, 0, nullIndex) : Encoding.ASCII.GetString(stringBytes);
+                    strArray[i] = str;
+                }
+            }
+                catch(Exception e)
+            {
+                Console.WriteLine($"An error occurred fetching string array: {e.Message}");
+            }
+            finally
+            {
+                client.DeleteVariableHandle(strArrayHandle);
+            }
+            return strArray;
+        }
     }
 }
 

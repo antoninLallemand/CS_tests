@@ -1,0 +1,15 @@
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.AssemblyInfoInputs.cache
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.AssemblyInfo.cs
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.csproj.CoreCompileInputs.cache
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.sourcelink.json
+D:\GitHub\CS_tests\LowPassFilter\bin\Debug\net8.0\LowPassFilter.exe
+D:\GitHub\CS_tests\LowPassFilter\bin\Debug\net8.0\LowPassFilter.deps.json
+D:\GitHub\CS_tests\LowPassFilter\bin\Debug\net8.0\LowPassFilter.runtimeconfig.json
+D:\GitHub\CS_tests\LowPassFilter\bin\Debug\net8.0\LowPassFilter.dll
+D:\GitHub\CS_tests\LowPassFilter\bin\Debug\net8.0\LowPassFilter.pdb
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.dll
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\refint\LowPassFilter.dll
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.pdb
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\LowPassFilter.genruntimeconfig.cache
+D:\GitHub\CS_tests\LowPassFilter\obj\Debug\net8.0\ref\LowPassFilter.dll
